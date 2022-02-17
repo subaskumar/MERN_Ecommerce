@@ -70,7 +70,7 @@ export default function SingleProduct() {
                             <span>Available Quantity : {Pdata.product.quantity} </span>
                         </Typography>
                         <Typography variant="body2" color="text.secondary" sx={{ fontSize: '20px', mt: 7, fontWeight : 700 }}>
-                            <Button variant="outlined" onClick={()=> AddToCart(`${Pdata.product._id}`)}>Add to Cart</Button>
+                            <Button variant="outlined" onClick={()=> AddToCart(`${Pdata.product._id}`)}>Add To Cart</Button>
                         </Typography>
                     </CardContent>
                 </CardActionArea>
